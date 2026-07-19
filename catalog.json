@@ -1,0 +1,985 @@
+{
+  "$schema": "./catalog.schema.json",
+  "skills": [
+    {
+      "name": "agents-sdk",
+      "summary": "Build AI agents on Cloudflare Workers using the Agents SDK.",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/agents-sdk",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "animation-vocabulary",
+      "summary": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scro…",
+      "category": "Frontend & Design",
+      "path": "skills/animation-vocabulary",
+      "provenance": "third-party",
+      "author": "emilkowalski",
+      "source": "https://github.com/emilkowalski/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "apple-accessibility-audit",
+      "summary": "Perform Apple-style accessibility audits of UI designs, screenshots, prototypes, web/app pages, or design descriptions against WCAG 2.2 Level AA.",
+      "category": "Frontend & Design",
+      "path": "skills/apple-accessibility-audit",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "apple-ui-design",
+      "summary": "Apple-inspired clean, minimal, premium UI design.",
+      "category": "Frontend & Design",
+      "path": "skills/apple-ui-design",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "caveman",
+      "summary": "Ultra-compressed communication mode.",
+      "category": "Communication & Productivity",
+      "path": "skills/caveman",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "cloudflare",
+      "summary": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), feature flags (Flagship), networking (Tunnel, Spectrum), sec…",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/cloudflare",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "cloudflare-email-service",
+      "summary": "Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing).",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/cloudflare-email-service",
+      "provenance": "adapted",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "cloudflare-one",
+      "summary": "Guides Cloudflare One Zero Trust and SASE work across Access, Gateway, WARP, Tunnel, Cloudflare WAN, DLP, CASB, device posture, and identity.",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/cloudflare-one",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "cloudflare-one-migrations",
+      "summary": "Plans migrations from Zscaler ZIA/ZPA, Palo Alto, legacy VPN, SWG, or SASE stacks to Cloudflare One.",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/cloudflare-one-migrations",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "codebase-indexer",
+      "summary": "Use when opening an existing codebase for the first time, or after completing a feature or bugfix — generates and maintains .codebase-indexer/docs/ index files so the agent does not re-sc…",
+      "category": "Engineering Workflow",
+      "path": "skills/codebase-indexer",
+      "provenance": "original",
+      "author": "Elvis020",
+      "source": "https://github.com/Elvis020/codebase-indexer",
+      "license": "Unlicensed",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "deployment-drift-investigator",
+      "summary": "Investigate why a deployed app, cluster, or environment no longer matches expected behavior.",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/deployment-drift-investigator",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "design-an-interface",
+      "summary": "Generate multiple radically different interface designs for a module using parallel sub-agents.",
+      "category": "Engineering Workflow",
+      "path": "skills/design-an-interface",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "design-with-taste",
+      "summary": "Apply the \"Family Values\" design philosophy to every UI you build.",
+      "category": "Frontend & Design",
+      "path": "skills/design-with-taste",
+      "provenance": "third-party",
+      "author": "cristicretu",
+      "source": "https://github.com/cristicretu/family-taste-skill",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "diagnose",
+      "summary": "Disciplined diagnosis loop for hard bugs and performance regressions.",
+      "category": "Debugging & Quality",
+      "path": "skills/diagnose",
+      "provenance": "third-party",
+      "author": "mattpocock",
+      "source": "https://github.com/mattpocock/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/debug.svg"
+      }
+    },
+    {
+      "name": "durable-objects",
+      "summary": "Create and review Cloudflare Durable Objects.",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/durable-objects",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "emil-design-eng",
+      "summary": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+      "category": "Frontend & Design",
+      "path": "skills/emil-design-eng",
+      "provenance": "third-party",
+      "author": "emilkowalski",
+      "source": "https://github.com/emilkowalski/skill",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "evidence-first-debugging",
+      "summary": "Use when debugging any bug, error, or unexpected behavior.",
+      "category": "Debugging & Quality",
+      "path": "skills/evidence-first-debugging",
+      "provenance": "third-party",
+      "author": "Augani",
+      "source": "https://github.com/Augani/evidence-first-debugging",
+      "license": "MIT",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/debug.svg"
+      }
+    },
+    {
+      "name": "find-skills",
+      "summary": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabili…",
+      "category": "Engineering Workflow",
+      "path": "skills/find-skills",
+      "provenance": "third-party",
+      "author": "vercel-labs",
+      "source": "https://github.com/vercel-labs/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "frontend-design",
+      "summary": "Create distinctive, production-grade frontend interfaces with high design quality.",
+      "category": "Frontend & Design",
+      "path": "skills/frontend-design",
+      "provenance": "adapted",
+      "author": "Anthropic",
+      "source": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "frontend-patterns",
+      "summary": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.",
+      "category": "Frontend & Design",
+      "path": "skills/frontend-patterns",
+      "provenance": "third-party",
+      "author": "affaan-m",
+      "source": "https://github.com/affaan-m/everything-claude-code",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "gpt-taste",
+      "summary": "Elite UX/UI & Advanced GSAP Motion Engineer.",
+      "category": "Frontend & Design",
+      "path": "skills/gpt-taste",
+      "provenance": "third-party",
+      "author": "Leonxlnx",
+      "source": "https://github.com/Leonxlnx/taste-skill",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "grill-me",
+      "summary": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree.",
+      "category": "Planning & Learning",
+      "path": "skills/grill-me",
+      "provenance": "third-party",
+      "author": "mattpocock",
+      "source": "https://github.com/mattpocock/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "impeccable",
+      "summary": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface.",
+      "category": "Frontend & Design",
+      "path": "skills/impeccable",
+      "provenance": "third-party",
+      "author": "pbakaus",
+      "source": "https://github.com/pbakaus/impeccable",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "summary": "Explore a codebase to find opportunities for architectural improvement, focusing on making the codebase more testable by deepening shallow modules.",
+      "category": "Engineering Workflow",
+      "path": "skills/improve-codebase-architecture",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "interaction-design",
+      "summary": "Design and implement microinteractions, motion design, transitions, and user feedback patterns.",
+      "category": "Frontend & Design",
+      "path": "skills/interaction-design",
+      "provenance": "third-party",
+      "author": "wshobson",
+      "source": "https://github.com/wshobson/agents",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "java-coding-standards",
+      "summary": "Java coding standards for Spring Boot services: naming, immutability, Optional usage, streams, exceptions, generics, and project layout.",
+      "category": "Backend & Data",
+      "path": "skills/java-coding-standards",
+      "provenance": "third-party",
+      "author": "affaan-m",
+      "source": "https://github.com/affaan-m/everything-claude-code",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "logging-best-practices",
+      "summary": "Design and review application logging using wide events/canonical log lines, high-cardinality structured fields, and strict sensitive-data controls.",
+      "category": "Backend & Data",
+      "path": "skills/logging-best-practices",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "make-interfaces-feel-better",
+      "summary": "Design engineering principles for making interfaces feel polished.",
+      "category": "Frontend & Design",
+      "path": "skills/make-interfaces-feel-better",
+      "provenance": "third-party",
+      "author": "jakubkrehel",
+      "source": "https://github.com/jakubkrehel/make-interfaces-feel-better",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "mece",
+      "summary": "Validate or decompose any specification, plan, or requirement list using the MECE framework (Mutually Exclusive, Collectively Exhaustive).",
+      "category": "Planning & Learning",
+      "path": "skills/mece",
+      "provenance": "third-party",
+      "author": "uxderrick",
+      "source": "https://github.com/uxderrick/mece-skill",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "pattern-fit-architecture",
+      "summary": "Use when designing, implementing, or reviewing code that touches persistence boundaries, caching or same-interface wrappers, extension/plugin points, integrations, SDKs, third-party servi…",
+      "category": "Backend & Data",
+      "path": "skills/pattern-fit-architecture",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "planning-with-files",
+      "summary": "Transforms workflow to use Manus-style persistent markdown files for planning, progress tracking, and knowledge storage.",
+      "category": "Engineering Workflow",
+      "path": "skills/planning-with-files",
+      "provenance": "third-party",
+      "author": "OthmanAdi",
+      "source": "https://github.com/OthmanAdi/planning-with-files",
+      "license": "MIT",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "prompt-improver",
+      "summary": "This skill enriches vague prompts with targeted research and clarification before execution.",
+      "category": "Communication & Productivity",
+      "path": "skills/prompt-improver",
+      "provenance": "third-party",
+      "author": "severity1",
+      "source": "https://github.com/severity1/claude-code-prompt-improver",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "prompt-lint",
+      "summary": "Audit a prompt for token waste and suggest a leaner rewrite.",
+      "category": "Communication & Productivity",
+      "path": "skills/prompt-lint",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "qa",
+      "summary": "Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues.",
+      "category": "Debugging & Quality",
+      "path": "skills/qa",
+      "provenance": "third-party",
+      "author": "mattpocock",
+      "source": "https://github.com/mattpocock/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/debug.svg"
+      }
+    },
+    {
+      "name": "review-animations",
+      "summary": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy.",
+      "category": "Frontend & Design",
+      "path": "skills/review-animations",
+      "provenance": "third-party",
+      "author": "emilkowalski",
+      "source": "https://github.com/emilkowalski/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "sandbox-sdk",
+      "summary": "Build sandboxed applications for secure code execution.",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/sandbox-sdk",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "scaffold-exercises",
+      "summary": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting.",
+      "category": "Engineering Workflow",
+      "path": "skills/scaffold-exercises",
+      "provenance": "third-party",
+      "author": "mattpocock",
+      "source": "https://github.com/mattpocock/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "security-review",
+      "summary": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features.",
+      "category": "Security",
+      "path": "skills/security-review",
+      "provenance": "third-party",
+      "author": "affaan-m",
+      "source": "https://github.com/affaan-m/everything-claude-code",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/debug.svg"
+      }
+    },
+    {
+      "name": "sentinel-scan",
+      "summary": "Scan codebase for leaked secrets, API keys, and sensitive data.",
+      "category": "Security",
+      "path": "skills/sentinel-scan",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/debug.svg"
+      }
+    },
+    {
+      "name": "session-handoff-brief",
+      "summary": "Turn current work into a concise next-session handoff.",
+      "category": "Communication & Productivity",
+      "path": "skills/session-handoff-brief",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "shadcn",
+      "summary": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI.",
+      "category": "Frontend & Design",
+      "path": "skills/shadcn",
+      "provenance": "third-party",
+      "author": "shadcn",
+      "source": "https://github.com/shadcn/ui",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "skeleton-loader-fidelity",
+      "summary": "Audit, design, and fix skeleton loaders so loading states preserve the real content footprint, avoid clipping, reduce layout shift, and show enough page structure.",
+      "category": "Frontend & Design",
+      "path": "skills/skeleton-loader-fidelity",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "stitch-loop",
+      "summary": "Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern",
+      "category": "Frontend & Design",
+      "path": "skills/stitch-loop",
+      "provenance": "third-party",
+      "author": "google-labs-code",
+      "source": "https://github.com/google-labs-code/stitch-skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "stitch-ui-design",
+      "summary": "Expert guide for creating effective prompts for Google Stitch AI UI design tool.",
+      "category": "Frontend & Design",
+      "path": "skills/stitch-ui-design",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "summary": "Postgres performance optimization and best practices from Supabase.",
+      "category": "Backend & Data",
+      "path": "skills/supabase-postgres-best-practices",
+      "provenance": "third-party",
+      "author": "supabase",
+      "source": "https://github.com/supabase/agent-skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "svg-animations",
+      "summary": "Create beautiful, performant SVG animations and illustrations.",
+      "category": "Frontend & Design",
+      "path": "skills/svg-animations",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "swift-macos-menubar",
+      "summary": "Use when working on Swift, SwiftUI, AppKit, MenuBarExtra, packaging, or macOS menubar app behavior in this repository or similar native macOS utilities.",
+      "category": "Native & Mobile",
+      "path": "skills/swift-macos-menubar",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "swiftui-ui-patterns",
+      "summary": "Best practices and example-driven guidance for building SwiftUI views and components, including navigation hierarchies, custom view modifiers, and responsive layouts with stacks and grids.",
+      "category": "Native & Mobile",
+      "path": "skills/swiftui-ui-patterns",
+      "provenance": "third-party",
+      "author": "dimillian",
+      "source": "https://github.com/dimillian/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "system-design-tutor",
+      "summary": "An expert system design tutor that quizzes the user on system design concepts drawn from a database of top system design books (including Designing Data-Intensive Applications, System Des…",
+      "category": "Planning & Learning",
+      "path": "skills/system-design-tutor",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "tailwindcss-advanced-layouts",
+      "summary": "Tailwind CSS advanced layout techniques including CSS Grid and Flexbox patterns",
+      "category": "Frontend & Design",
+      "path": "skills/tailwindcss-advanced-layouts",
+      "provenance": "third-party",
+      "author": "josiahsiegel",
+      "source": "https://github.com/josiahsiegel/claude-plugin-marketplace",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "teach",
+      "summary": "Teach the user a new skill or concept, within this workspace.",
+      "category": "Planning & Learning",
+      "path": "skills/teach",
+      "provenance": "third-party",
+      "author": "mattpocock",
+      "source": "https://github.com/mattpocock/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "technical-decision-framework",
+      "summary": "Guide technical tradeoff decisions for build, stack, and scope",
+      "category": "Planning & Learning",
+      "path": "skills/technical-decision-framework",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "thumb-first",
+      "summary": "One-stop mobile review — the umbrella for the thumb-first suite.",
+      "category": "Native & Mobile",
+      "path": "skills/thumb-first",
+      "provenance": "third-party",
+      "author": "kylezantos",
+      "source": "https://github.com/kylezantos/thumb-first",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "thumb-first-design",
+      "summary": "The design-judgment layer of the thumb-first mobile suite — decides WHAT the right mobile pattern is and WHY, platform-agnostic across web and native.",
+      "category": "Native & Mobile",
+      "path": "skills/thumb-first-design",
+      "provenance": "adapted",
+      "author": "kylezantos",
+      "source": "https://github.com/kylezantos/thumb-first",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "thumb-first-platform",
+      "summary": "The technical-verification layer of the thumb-first mobile suite — finds and fixes objective platform defects in mobile web apps and PWAs (iOS Safari, Android Chrome).",
+      "category": "Native & Mobile",
+      "path": "skills/thumb-first-platform",
+      "provenance": "adapted",
+      "author": "kylezantos",
+      "source": "https://github.com/kylezantos/thumb-first",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "to-issues",
+      "summary": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices.",
+      "category": "Engineering Workflow",
+      "path": "skills/to-issues",
+      "provenance": "third-party",
+      "author": "mattpocock",
+      "source": "https://github.com/mattpocock/skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "turnstile-spin",
+      "summary": "Set up Cloudflare Turnstile end-to-end in a project — scan the codebase, create the widget via the Cloudflare API, deploy the managed siteverify Worker, write the frontend snippets, valid…",
+      "category": "Security",
+      "path": "skills/turnstile-spin",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/debug.svg"
+      }
+    },
+    {
+      "name": "ui-animations",
+      "summary": "Use when implementing animations in any UI (SwiftUI, CSS, React).",
+      "category": "Frontend & Design",
+      "path": "skills/ui-animations",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "ui-design-system",
+      "summary": "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and developer handoff tools.",
+      "category": "Frontend & Design",
+      "path": "skills/ui-design-system",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "summary": "UI/UX design intelligence for web and mobile.",
+      "category": "Frontend & Design",
+      "path": "skills/ui-ux-pro-max",
+      "provenance": "third-party",
+      "author": "nextlevelbuilder",
+      "source": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "understand-dashboard-lite",
+      "summary": "Launch the existing Understand Anything dashboard for a lite-generated graph without duplicating the dashboard package",
+      "category": "Engineering Workflow",
+      "path": "skills/understand-dashboard-lite",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "understand-lite",
+      "summary": "Build a low-token, deterministic structural knowledge graph for a repo using cheap scanning and import resolution, then save it in .understand-anything/ for the dashboard.",
+      "category": "Engineering Workflow",
+      "path": "skills/understand-lite",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "understand-lite-diff",
+      "summary": "Build a cheap diff overlay for a lite-generated graph so the shared dashboard can highlight changed and affected nodes",
+      "category": "Engineering Workflow",
+      "path": "skills/understand-lite-diff",
+      "provenance": "local",
+      "author": "Local collection — attribution pending",
+      "source": null,
+      "license": "Unverified",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "userinterface-wiki",
+      "summary": "UI/UX best practices for web interfaces.",
+      "category": "Frontend & Design",
+      "path": "skills/userinterface-wiki",
+      "provenance": "third-party",
+      "author": "raphaelsalaja",
+      "source": "https://github.com/raphaelsalaja/userinterface-wiki",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "summary": "React and Next.js performance optimization guidelines from Vercel Engineering.",
+      "category": "Frontend & Design",
+      "path": "skills/vercel-react-best-practices",
+      "provenance": "third-party",
+      "author": "vercel-labs",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "web-design-guidelines",
+      "summary": "Review UI code for Web Interface Guidelines compliance.",
+      "category": "Frontend & Design",
+      "path": "skills/web-design-guidelines",
+      "provenance": "third-party",
+      "author": "vercel-labs",
+      "source": "https://github.com/vercel-labs/agent-skills",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/design.svg"
+      }
+    },
+    {
+      "name": "web-perf",
+      "summary": "Analyzes web performance using Chrome DevTools MCP.",
+      "category": "Debugging & Quality",
+      "path": "skills/web-perf",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/debug.svg"
+      }
+    },
+    {
+      "name": "workers-best-practices",
+      "summary": "Reviews and authors Cloudflare Workers code against production best practices.",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/workers-best-practices",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "wrangler",
+      "summary": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store.",
+      "category": "Cloud & Infrastructure",
+      "path": "skills/wrangler",
+      "provenance": "third-party",
+      "author": "Cloudflare",
+      "source": "https://github.com/cloudflare/skills",
+      "license": "Apache-2.0",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    },
+    {
+      "name": "writing-skills",
+      "summary": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "category": "Engineering Workflow",
+      "path": "skills/writing-skills",
+      "provenance": "adapted",
+      "author": "obra",
+      "source": "https://github.com/obra/superpowers",
+      "license": "See upstream repository",
+      "showcase": {
+        "featured": false,
+        "artwork": "assets/showcase/handoff.svg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hey Skills catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["skills"],
+  "properties": {
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "summary", "category", "provenance", "author", "source", "license", "showcase"],
+        "properties": {
+          "name": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "summary": { "type": "string", "minLength": 1 },
+          "category": { "type": "string", "minLength": 1 },
+          "path": { "type": ["string", "null"] },
+          "provenance": {
+            "enum": ["original", "adapted", "third-party", "reference-only", "local"]
+          },
+          "author": { "type": "string", "minLength": 1 },
+          "source": { "type": ["string", "null"], "format": "uri" },
+          "license": { "type": "string", "minLength": 1 },
+          "showcase": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["featured", "artwork"],
+            "properties": {
+              "featured": { "type": "boolean" },
+              "artwork": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}
