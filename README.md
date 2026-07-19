@@ -34,5 +34,3 @@ npx github:Elvis020/hey-skills add --all --to ./skills
 ```
 
 `--to` chooses the destination, so the same collection works with any agent that reads skill folders.
-
-**[Browse all skills →](SKILLS.md)** · [View creator and license credits](ATTRIBUTION.md)
