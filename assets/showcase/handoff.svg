@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="180" viewBox="0 0 360 180" role="img" aria-label="A task moving cleanly from one person to another">
+  <rect width="360" height="180" rx="12" fill="#1C1C1C"/>
+  <circle cx="78" cy="72" r="25" fill="#292929" stroke="#7DD3FC" stroke-width="2"/>
+  <path d="M42 134c5-25 19-38 36-38s31 13 36 38" fill="#242424" stroke="#414141" stroke-width="2"/>
+  <circle cx="282" cy="72" r="25" fill="#292929" stroke="#A7F3D0" stroke-width="2"/>
+  <path d="M246 134c5-25 19-38 36-38s31 13 36 38" fill="#242424" stroke="#414141" stroke-width="2"/>
+  <rect x="135" y="52" width="90" height="70" rx="8" fill="#E5E5E5"/>
+  <path d="M151 72h58M151 88h44M151 104h51" stroke="#777" stroke-width="5" stroke-linecap="round"/>
+  <path d="m121 86 10-8v16Zm118 0-10-8v16Z" fill="#A1A1A1"/>
+</svg>
+

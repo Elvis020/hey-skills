@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="180" viewBox="0 0 360 180" role="img" aria-label="Interface panels being composed">
+  <rect width="360" height="180" rx="12" fill="#1C1C1C"/>
+  <rect x="42" y="32" width="122" height="116" rx="8" fill="#242424" stroke="#414141"/>
+  <rect x="58" y="50" width="90" height="38" rx="6" fill="#303030"/>
+  <path d="M59 108h74M59 125h48" stroke="#555" stroke-width="7" stroke-linecap="round"/>
+  <path d="M192 48h126M192 75h90M192 102h110" stroke="#555" stroke-width="8" stroke-linecap="round"/>
+  <rect x="192" y="124" width="72" height="24" rx="6" fill="#E5E5E5"/>
+  <circle cx="308" cy="42" r="13" fill="#7DD3FC"/>
+</svg>
+

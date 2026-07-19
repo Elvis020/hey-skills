@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="180" viewBox="0 0 360 180" role="img" aria-label="Evidence connected to a resolved bug">
+  <rect width="360" height="180" rx="12" fill="#1C1C1C"/>
+  <path d="M77 52h86M77 76h58M77 100h74" stroke="#555" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="54" cy="52" r="6" fill="#7DD3FC"/><circle cx="54" cy="76" r="6" fill="#7DD3FC"/><circle cx="54" cy="100" r="6" fill="#7DD3FC"/>
+  <path d="M174 76h44" stroke="#777" stroke-width="2" stroke-dasharray="5 5"/>
+  <circle cx="263" cy="76" r="38" fill="#272727" stroke="#A7F3D0" stroke-width="2"/>
+  <path d="m246 76 11 11 23-27" fill="none" stroke="#A7F3D0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m290 103 24 24" stroke="#A7F3D0" stroke-width="7" stroke-linecap="round"/>
+</svg>
+
