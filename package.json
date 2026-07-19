@@ -1,0 +1,33 @@
+{
+  "name": "hey-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browse and install portable agent skills.",
+  "type": "module",
+  "bin": {
+    "hey-skills": "./bin/hey-skills.mjs"
+  },
+  "files": [
+    "bin/",
+    "assets/",
+    "skills/",
+    "catalog/",
+    "catalog.json",
+    "README.md",
+    "SKILLS.md",
+    "ATTRIBUTION.md"
+  ],
+  "scripts": {
+    "catalog": "node scripts/generate-skills-list.mjs",
+    "import": "node scripts/import-installed-skills.mjs",
+    "validate": "node scripts/validate-catalog.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elvis020/hey-skills.git"
+  },
+  "license": "UNLICENSED"
+}

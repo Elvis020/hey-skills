@@ -13,41 +13,26 @@
   <a href="ATTRIBUTION.md">Credits</a>
 </p>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <img src="assets/showcase/debug.svg" alt="Debugging illustration" width="100%">
-      <h3>Debug with evidence</h3>
-      <p>Trace unexpected behavior from what the system actually shows.</p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="assets/showcase/design.svg" alt="Design illustration" width="100%">
-      <h3>Design with clarity</h3>
-      <p>Turn rough product ideas into focused interface decisions.</p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="assets/showcase/handoff.svg" alt="Handoff illustration" width="100%">
-      <h3>Work with continuity</h3>
-      <p>Carry useful context cleanly between people and sessions.</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/showcase/workflow.svg" alt="Trace evidence, shape a clear instruction, and carry it forward" width="100%">
+</p>
 
-## Install from your terminal
+<p align="center"><em>Evidence in. Clear instructions out. Useful context carried forward.</em></p>
 
-Install one skill into a folder you choose:
+## Take what you need
+
+One skill:
 
 ```sh
-npx github:Elvis020/hey-skills add <skill-name> --to ./skills
+npx github:Elvis020/hey-skills add logging-best-practices --to ./skills
 ```
 
-Install every published skill:
+The whole shelf:
 
 ```sh
 npx github:Elvis020/hey-skills add --all --to ./skills
 ```
 
-Use `--to` to point at any agent's skills directory. The collection itself is not tied to Claude, Codex, or another provider.
+`--to` chooses the destination, so the same collection works with any agent that reads skill folders.
 
-The complete categorized list lives in **[SKILLS.md](SKILLS.md)**. Skills adapted or collected from other creators retain clear source and license credits in **[ATTRIBUTION.md](ATTRIBUTION.md)**.
-
+**[Browse all skills →](SKILLS.md)** · [View creator and license credits](ATTRIBUTION.md)
